@@ -7,7 +7,7 @@
     <meta name="theme-color" content="#111015">
 
     <title>HAIFEST — Electronic Music Experience</title>
-    <meta name="description" content="HAIFEST: una nueva experiencia de música electrónica online. Descubre artistas, sesiones y próximos eventos.">
+    <meta name="description" content="HAIFEST: una nueva experiencia de música electrónica online.">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,8 +18,9 @@
 
 <body>
 
-    <!-- BARRA SUPERIOR FIJA -->
+    <!-- BARRA SUPERIOR FIJA: DISEÑO ORIGINAL -->
     <header class="header">
+
         <a href="#" class="logo" aria-label="HAIFEST, inicio">
             <strong>HAI</strong><span>FEST</span><i>.</i>
         </a>
@@ -34,9 +35,11 @@
         <a href="#acceso" class="header-button">
             ACCEDER <span>↗</span>
         </a>
+
     </header>
 
-    <!-- SEGUNDA BARRA FIJA -->
+
+    <!-- SEGUNDA BARRA FIJA: DISEÑO ORIGINAL -->
     <div class="festival-bar">
         <span class="festival-bar-label">HAIFEST</span>
         <span class="festival-bar-date">FECHA POR DEFINIR</span>
@@ -45,409 +48,116 @@
 
     <main>
 
-        <!-- PORTADA -->
-        <section class="hero">
-            <div class="hero-image"></div>
+        <!-- PORTADA CON VÍDEO DE FONDO -->
+        <section class="hero" id="inicio">
+
+            <video class="hero-video" autoplay muted loop playsinline>
+                <source src="./video/haifest-background.mp4" type="video/mp4">
+            </video>
+
+            <div class="hero-overlay"></div>
 
             <div class="hero-content">
+
                 <span class="eyebrow">
                     ELECTRONIC MUSIC · DIGITAL EXPERIENCE
                 </span>
 
                 <h1>
-                    FEEL THE<br>
-                    <span>FREQUENCY.</span>
+                    ¡ÚNETE<br>
+                    <span>YA!</span>
                 </h1>
 
-                <p>
-                    La música electrónica no tiene límites.<br>
-                    Bienvenido a una nueva forma de vivirla.
-                </p>
-
                 <div class="hero-buttons">
-                    <a href="#experiencia" class="button button-primary">
-                        DESCUBRE HAIFEST <span>↗</span>
+
+                    <a
+                        href="https://www.youtube.com/"
+                        class="button button-primary"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        ÚNETE A HAIFEST <span>↗</span>
                     </a>
 
-                    <a href="#eventos" class="button button-secondary">
-                        PRÓXIMOS EVENTOS
-                    </a>
                 </div>
 
                 <div class="hero-bottom">
-                    <span>UNA EXPERIENCIA DIGITAL</span>
-                    <span>01 / HAIFEST</span>
+                    <span>UNA NUEVA EXPERIENCIA DE MÚSICA ELECTRÓNICA</span>
+                    <a href="#playlist">ESCUCHA LA PLAYLIST ↓</a>
                 </div>
+
             </div>
+
         </section>
 
 
-        <!-- EL FESTIVAL -->
-        <section class="section section-padding" id="experiencia">
+        <!-- PLAYLIST OFICIAL DE SPOTIFY -->
+        <section class="playlist-section section-padding" id="playlist">
+
             <div class="section-label">
-                <span>01</span> / EL CONCEPTO
+                <span>01</span> / EL SONIDO DE HAIFEST
             </div>
 
-            <div class="intro-grid">
-                <div class="intro-title">
-                    <h2>
-                        NO ES SOLO<br>
-                        <span>MÚSICA.</span>
-                    </h2>
-                </div>
-
-                <div class="intro-description">
-                    <p>
-                        HAIFEST nace para llevar la música electrónica
-                        a otro nivel. Un espacio digital donde los DJs,
-                        la música y la comunidad se unen en una misma
-                        experiencia.
-                    </p>
-
-                    <p>
-                        Descubre sesiones, conoce nuevos artistas y
-                        prepárate para vivir cada edición desde donde estés.
-                    </p>
-
-                    <a href="#artistas" class="text-link">
-                        EXPLORAR EL UNIVERSO HAIFEST <span>↗</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="feature-grid">
-                <article class="feature-card">
-                    <span class="feature-number">01</span>
-                    <div class="feature-icon">♫</div>
-                    <h3>MÚSICA ELECTRÓNICA</h3>
-                    <p>
-                        Sesiones y sonidos para quienes viven la música
-                        más allá de lo convencional.
-                    </p>
-                </article>
-
-                <article class="feature-card">
-                    <span class="feature-number">02</span>
-                    <div class="feature-icon">◷</div>
-                    <h3>ACCESO ANTICIPADO</h3>
-                    <p>
-                        Los usuarios registrados podrán ver los sets
-                        24 horas antes de su publicación pública.
-                    </p>
-                </article>
-
-                <article class="feature-card">
-                    <span class="feature-number">03</span>
-                    <div class="feature-icon">◎</div>
-                    <h3>UNA COMUNIDAD</h3>
-                    <p>
-                        Un punto de encuentro digital para descubrir
-                        artistas y compartir la pasión por la electrónica.
-                    </p>
-                </article>
-            </div>
-        </section>
-
-
-        <!-- ARTISTAS -->
-        <section class="section section-padding artists-section" id="artistas">
-            <div class="section-label">
-                <span>02</span> / TALENTO
-            </div>
-
-            <div class="section-heading">
-                <div>
-                    <h2>THE <span>LINE-UP.</span></h2>
-                    <p>
-                        Los artistas que darán forma al sonido de HAIFEST.
-                    </p>
-                </div>
-
-                <span class="heading-note">ARTISTAS / HAIFEST</span>
-            </div>
-
-            <div class="artists-grid">
-                <article class="artist-card">
-                    <div class="artist-image artist-image-one">
-                        <img
-                            src="https://images.unsplash.com/photo-1571266028243-d220c9c3b6a6?auto=format&fit=crop&w=900&q=85"
-                            alt="Escenario con iluminación durante un espectáculo"
-                            loading="lazy"
-                        >
-                        <span class="artist-index">ARTISTA 01</span>
-                    </div>
-
-                    <div class="artist-info">
-                        <div>
-                            <h3>PRÓXIMAMENTE</h3>
-                            <p>ARTISTA POR CONFIRMAR</p>
-                        </div>
-                        <span class="artist-arrow">↗</span>
-                    </div>
-                </article>
-
-                <article class="artist-card">
-                    <div class="artist-image artist-image-two">
-                        <img
-                            src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=900&q=85"
-                            alt="Público disfrutando de un espectáculo musical"
-                            loading="lazy"
-                        >
-                        <span class="artist-index">ARTISTA 02</span>
-                    </div>
-
-                    <div class="artist-info">
-                        <div>
-                            <h3>PRÓXIMAMENTE</h3>
-                            <p>ARTISTA POR CONFIRMAR</p>
-                        </div>
-                        <span class="artist-arrow">↗</span>
-                    </div>
-                </article>
-
-                <article class="artist-card">
-                    <div class="artist-image artist-image-three">
-                        <img
-                            src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=900&q=85"
-                            alt="Luces y ambiente de música electrónica"
-                            loading="lazy"
-                        >
-                        <span class="artist-index">ARTISTA 03</span>
-                    </div>
-
-                    <div class="artist-info">
-                        <div>
-                            <h3>PRÓXIMAMENTE</h3>
-                            <p>ARTISTA POR CONFIRMAR</p>
-                        </div>
-                        <span class="artist-arrow">↗</span>
-                    </div>
-                </article>
-            </div>
-
-            <p class="section-footnote">
-                EL LINE-UP OFICIAL SE ANUNCIARÁ MÁS ADELANTE.
-            </p>
-        </section>
-
-
-        <!-- SETS -->
-        <section class="section section-padding sets-section" id="sets">
-            <div class="section-label">
-                <span>03</span> / SESIONES
-            </div>
-
-            <div class="section-heading">
-                <div>
-                    <h2>PRESS <span>PLAY.</span></h2>
-                    <p>
-                        Sesiones electrónicas para disfrutar sin límites.
-                    </p>
-                </div>
-
-                <span class="heading-note">HAIFEST SESSIONS</span>
-            </div>
-
-            <div class="sets-layout">
-                <div class="sets-image">
-                    <img
-                        src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1400&q=85"
-                        alt="Ambiente de un evento musical"
-                        loading="lazy"
-                    >
-                    <div class="sets-image-overlay">
-                        <span>HAIFEST</span>
-                        <span>SESSIONS / 001</span>
-                    </div>
-                </div>
-
-                <div class="sets-content">
-                    <span class="event-tag">PRÓXIMAMENTE</span>
-
-                    <h3>EL SONIDO<br>DE HAIFEST.</h3>
-
-                    <p>
-                        Estamos preparando las primeras sesiones.
-                        Muy pronto podrás descubrir los sets de HAIFEST.
-                    </p>
-
-                    <div class="set-status">
-                        <span class="status-dot"></span>
-                        <span>PRIMERAS SESIONES EN PREPARACIÓN</span>
-                    </div>
-
-                    <a href="#acceso" class="button button-primary">
-                        DESCUBRE EL ACCESO ANTICIPADO <span>↗</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="early-access-strip">
-                <div>
-                    <span class="strip-label">VENTAJA EXCLUSIVA</span>
-                    <h3>24 HORAS ANTES.</h3>
-                </div>
+            <div class="playlist-heading">
+                <h2>
+                    PLAYLIST OFICIAL DE
+                    <span>HAIFEST.</span>
+                </h2>
 
                 <p>
-                    Regístrate para acceder a los sets un día antes
-                    de su publicación pública en YouTube.
-                </p>
-
-                <a href="#acceso" class="text-link">
-                    MÁS INFORMACIÓN <span>↗</span>
-                </a>
-            </div>
-        </section>
-
-
-        <!-- EVENTOS -->
-        <section class="section section-padding events-section" id="eventos">
-            <div class="section-label">
-                <span>04</span> / CALENDARIO HAIFEST
-            </div>
-
-            <div class="events-heading">
-                <div>
-                    <h2>PRÓXIMAS<br><span>EXPERIENCIAS.</span></h2>
-                </div>
-
-                <p>
-                    Cada evento, una nueva historia.<br>
-                    La próxima cita empieza aquí.
+                    La música que define el universo HAIFEST,
+                    en una sola playlist.
                 </p>
             </div>
 
-            <!-- EVENTO PRINCIPAL -->
-            <article class="event-card event-featured">
-                <div class="event-photo">
-                    <img
-                        src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=1400&q=85"
-                        alt="Ambiente de música electrónica en directo"
-                        loading="lazy"
-                    >
-                    <span class="event-photo-label">HAIFEST / ONLINE</span>
-                </div>
+            <div class="spotify-player">
 
-                <div class="event-details">
-                    <div>
-                        <span class="event-tag">PRÓXIMO EVENTO</span>
+                <iframe
+                    title="Playlist oficial de HAIFEST en Spotify"
+                    src="https://open.spotify.com/embed/playlist/7pqN5yon8OaSbBba6oyHeM?utm_source=generator"
+                    width="100%"
+                    height="380"
+                    frameborder="0"
+                    allowfullscreen
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy">
+                </iframe>
 
-                        <h3>HAIFEST — FIRST EDITION</h3>
-
-                        <p>
-                            La primera edición de HAIFEST. Una nueva
-                            experiencia de música electrónica online,
-                            con sesiones y artistas por descubrir.
-                        </p>
-                    </div>
-
-                    <span class="event-tba">FECHA POR DEFINIR</span>
-                </div>
-            </article>
-
-            <!-- ARCHIVO DE EVENTOS ANTERIORES -->
-            <div class="past-events-heading">
-                <h3>EDICIONES ANTERIORES</h3>
-                <span>ARCHIVO HAIFEST</span>
             </div>
 
-            <div class="past-events-grid">
-                <article class="past-event-card">
-                    <div class="past-event-photo">
-                        <img
-                            src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=800&q=85"
-                            alt="Público en un evento musical"
-                            loading="lazy"
-                        >
-                        <span>01</span>
-                    </div>
+            <a
+                class="spotify-link"
+                href="https://open.spotify.com/playlist/7pqN5yon8OaSbBba6oyHeM?si=WNnOhDBzTsGDLpNroEnQfQ"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                ABRIR EN SPOTIFY <span>↗</span>
+            </a>
 
-                    <div class="past-event-info">
-                        <h4>EVENTO ANTERIOR 01</h4>
-                        <p>FECHA POR DEFINIR</p>
-                    </div>
-                </article>
-
-                <article class="past-event-card">
-                    <div class="past-event-photo">
-                        <img
-                            src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&w=800&q=85"
-                            alt="Escenario de un concierto"
-                            loading="lazy"
-                        >
-                        <span>02</span>
-                    </div>
-
-                    <div class="past-event-info">
-                        <h4>EVENTO ANTERIOR 02</h4>
-                        <p>FECHA POR DEFINIR</p>
-                    </div>
-                </article>
-
-                <article class="past-event-card">
-                    <div class="past-event-photo">
-                        <img
-                            src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=85"
-                            alt="Público y ambiente de un festival"
-                            loading="lazy"
-                        >
-                        <span>03</span>
-                    </div>
-
-                    <div class="past-event-info">
-                        <h4>EVENTO ANTERIOR 03</h4>
-                        <p>FECHA POR DEFINIR</p>
-                    </div>
-                </article>
-            </div>
-
-            <p class="section-footnote event-footnote">
-                LAS FECHAS Y LOS EVENTOS SE ACTUALIZARÁN CUANDO SE CONFIRMEN.
-            </p>
-        </section>
-
-
-        <!-- REGISTRO / ACCESO -->
-        <section class="access-section section-padding" id="acceso">
-            <div class="access-content">
-                <span class="eyebrow">YOUR EXPERIENCE STARTS HERE</span>
-
-                <h2>ENTRA EN EL<br><span>UNIVERSO HAIFEST.</span></h2>
-
-                <p>
-                    Estamos preparando el sistema de registro.
-                    Próximamente podrás crear tu cuenta y acceder
-                    a los sets 24 horas antes que el público general.
-                </p>
-
-                <span class="access-status">
-                    <span class="status-dot"></span>
-                    REGISTRO PRÓXIMAMENTE
-                </span>
-            </div>
-
-            <div class="access-number">H.</div>
         </section>
 
     </main>
 
 
-    <!-- PIE DE PÁGINA -->
+    <!-- PIE DE PÁGINA CON EL LOGO ORIGINAL -->
     <footer class="footer">
-        <a href="#" class="logo footer-logo">
+
+        <a href="#inicio" class="logo footer-logo" aria-label="HAIFEST, volver al inicio">
             <strong>HAI</strong><span>FEST</span><i>.</i>
         </a>
 
         <p>UNA NUEVA EXPERIENCIA DE MÚSICA ELECTRÓNICA.</p>
 
-        <a href="#acceso" class="footer-link">ACCESO <span>↗</span></a>
+        <a href="#acceso" class="footer-link">
+            ACCESO <span>↗</span>
+        </a>
 
         <div class="footer-bottom">
             <span>© 2026 HAIFEST</span>
-            <a href="#">VOLVER ARRIBA ↑</a>
+            <a href="#inicio">VOLVER ARRIBA ↑</a>
         </div>
+
     </footer>
 
 </body>
 </html>
-
