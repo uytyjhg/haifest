@@ -1,6 +1,6 @@
 // HAIFEST — cuenta atrás y menú móvil
 (() => {
-  "use strict";
+  "use strict"; 
 
   // El evento termina al comenzar el 14 de julio de 2027, en hora peninsular española.
   // En julio España usa CEST (UTC+2), por eso se indica +02:00 explícitamente.
